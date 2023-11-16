@@ -13,6 +13,12 @@ function App() {
 
   return (
     <>
+    <div class="navbar">
+      <nav>
+        <p>Navbar for demo page</p>
+      </nav>
+    </div>
+      <div class="element">
       <Canvas>
         <ambientLight intensity={1.5} />
         <OrbitControls enableZoom={true} />
@@ -35,6 +41,7 @@ function App() {
       </p>
       </div>
       <Footer />
+      </div>
     </>
   )
 }

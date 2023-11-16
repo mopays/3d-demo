@@ -3,7 +3,22 @@ body {
     padding: 0;
     background: #222;
   }
-  
+  .navbar{
+    top: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+    background-color: #222;
+    height: 120px;
+  }
+  .navbar p{
+    font-size: 30px;
+    align-items: center;
+    margin: 10 auto;
+    margin-left: 120px;
+    color:white;
+
+  }
   .left {
     left: 25px;
   }
@@ -19,6 +34,9 @@ body {
   .bottom {
     position: absolute;
     bottom: 25px;
+  }
+  .profile-contenter{
+    margin-top: 400px;
   }
   
   #gradient {
@@ -45,6 +63,7 @@ body {
   }
   
   #card {
+    margin-top: 288px;
     position: absolute;
     width: 450px;
     height: 225px;
